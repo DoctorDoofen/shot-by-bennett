@@ -1,0 +1,57 @@
+.profile-dropdown {
+  position: relative
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: lightgray solid 1px;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(196, 134, 54);
+  text-shadow: -1px -1px 0 rgba(0, 13, 88, 0.753),
+    1px -1px 0 rgba(0, 13, 88, 0.753),
+    -1px 1px 0 rgba(0, 13, 88, 0.753),
+    1px 1px 0 rgba(0, 13, 88, 0.753);
+}
+
+.dropdown-toggle:hover {
+  background-color: rgba(128, 128, 128, 0.253);
+  border-radius: 25px;
+}
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  color: rgba(0, 13, 88, 0.753);
+  cursor: pointer;
+}
+
+.profile-icon {
+  font-size: 30px;
+  color: rgba(0, 13, 88, 0.753);
+  ;
+}
+
+.profile-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 13, 88, 0.753);
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
